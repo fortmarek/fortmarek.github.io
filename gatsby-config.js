@@ -1,14 +1,14 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Marek Fort - iOS Blog`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Marek Fort`,
+      summary: `iOS developer at Ackee and core maintainer of tuist.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
+    description: `Marek Fort - blog about iOS and Swift development.`,
     siteUrl: `https://gatsby-starter-blog-demo.netlify.com/`,
     social: {
-      twitter: `kylemathews`,
+      twitter: `marekfort`,
     },
   },
   plugins: [
