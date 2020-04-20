@@ -1,12 +1,9 @@
 {
-  "name": "gatsby-starter-blog",
+  "name": "fortmarek-web",
   "private": true,
-  "description": "A starter for a blog powered by Gatsby and Markdown",
+  "description": "Marek Fort's personal website",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
-  "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
-  },
+  "author": "Marek Fort <marekfort@me.com>",
   "dependencies": {
     "gatsby": "^2.20.25",
     "gatsby-image": "^2.3.4",
@@ -39,18 +36,19 @@
   "devDependencies": {
     "prettier": "2.0.4"
   },
-  "homepage": "https://github.com/gatsbyjs/gatsby-starter-blog#readme",
   "keywords": [
-    "gatsby"
+    "ios",
+    "swift",
+    "tuist"
   ],
   "license": "MIT",
   "main": "n/a",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
+    "url": "git+https://github.com/fortmarek/fortmarek.github.io"
   },
   "scripts": {
-    "deploy": "gatsby build && gh-pages -d public -b master",
+    "deploy:github": "npm run build && node ./scripts/deploy-github",
     "build": "gatsby build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
