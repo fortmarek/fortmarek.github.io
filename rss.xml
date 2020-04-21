@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Marek Fort - iOS Blog]]></title><description><![CDATA[Marek Fort - blog about iOS and Swift development.]]></description><link>https://gatsby-starter-blog-demo.netlify.com</link><generator>GatsbyJS</generator><lastBuildDate>Tue, 21 Apr 2020 06:24:36 GMT</lastBuildDate><item><title><![CDATA[Five Easy Xcode Tips]]></title><description><![CDATA[Recently, I have been seeing a lot of new tips regarding Xcode and even though I spend way too much time in it, there is still a lot I can…]]></description><link>https://gatsby-starter-blog-demo.netlify.com/xcode-tips/</link><guid isPermaLink="false">https://gatsby-starter-blog-demo.netlify.com/xcode-tips/</guid><pubDate>Sat, 09 Feb 2019 22:40:32 GMT</pubDate><content:encoded>&lt;p&gt;Recently, I have been seeing a lot of new tips regarding Xcode and even though I spend way too much time in it, there is still a lot I can explore. And as we all know sharing is caring ❤️, and therefore I decided to publish this article. Hopefully, you will find some of these tips useful! 😉&lt;/p&gt;
+&lt;p&gt;⌘ = Command | ⌥ = Option/Alt | ⇧ = Shift | ⌃ = Control&lt;/p&gt;
+&lt;h2&gt;Tip Number One: Current File&lt;/h2&gt;
+&lt;p&gt;So, you probably know how to quickly open a file - ⌘+⇧+O. This is obviously super useful and I can not imagine navigating in Xcode without it. But let’s say I want to go to the file’s location in the Project navigator - for example I want to move it somewhere else, I want to create another file in the same group (I usually use it for this one), or I just want to see the files around it. Although this is not something you need to do all the time, when you do, it is really clumsy, time-consuming and tedious to do so. And we don’t want that! So to quickly see the file in the Project navigation, hit ⌘+⇧+J and you are done!&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/ee5acc892259ee03e0753a7d4dfd3616/8c557/current_file.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 58.10810810810811%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAAB6ElEQVQoz52SXXPSQBSG83NKPkk2uxvyQVDGC2fUgRACdAr9EEuRFLB2aqf9o/4ArzbqLReOezyJHfwoVceLZzbZ7HnzvmeP0mo/fd9uP/nUaj0WURQL4nLh+bHwOBOUckEZw2dPcB4IP2gK349wr1ERhLHgXiAI4cJ2qLBtKpT5Iv+cny+hnw3h2fMOWI4PtheCG4ZA/BDq1Ic67hlWAwyzAbrhgYbUVLpF1dgWZbk4FRcXb2E4Ovja6abSsLi0qCdNyqVOqNRsKg3CpGZSqWqurKkIrqpGd6JMp7Pi8vIdzF/nspcOwMK/u1YEthMiATh2WLlSTXSlUdirEXTl3jm7j3I2mxdXV9ewyFcyG+xjLI6iHFwXBVkEuh2AgcImQtwmxg9AR/GyuBS+J/hqelyUkQ8mRxIjV4K25gO1Y+DeI3BoE1wWAyHYU/LduaqzhwVXeSm4hvHhiexnIzAtbLrOQcdLqBsM6lhs4EELi3XkR2R3p6iyXp8XNze3GHkpD49eYr/YtmDvjuq9LP7NzU6Hp2ezYrl6A6P9sXzRSdDd7oNbkXL9w3fl5HgixuMJJGkmu72+RMFqNB4ai7+hJOngYzku5WB3k/4vDn8e3n9FyQajD2l/+AUvZJP0sg32cINiG01n/8U3hp6M4P6Pi/EAAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Open the current file in the Project navigator&quot;
+        title=&quot;Open the current file in the Project navigator&quot;
+        src=&quot;/static/ee5acc892259ee03e0753a7d4dfd3616/fcda8/current_file.png&quot;
+        srcset=&quot;/static/ee5acc892259ee03e0753a7d4dfd3616/12f09/current_file.png 148w,
+/static/ee5acc892259ee03e0753a7d4dfd3616/e4a3f/current_file.png 295w,
+/static/ee5acc892259ee03e0753a7d4dfd3616/fcda8/current_file.png 590w,
+/static/ee5acc892259ee03e0753a7d4dfd3616/8c557/current_file.png 700w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Tip Number Two: Current View&lt;/h2&gt;
+&lt;p&gt;This shortcut is quite similar to the previous one, but it is used in the view debugger. So let’s say you start a view debugger and you’d like to know where exactly in the view’s hierarchy the currently highlighted view is or what its constraints are. And since views in the view debugger are just named by its main class (eg. UIButton), it is really not easy to find it. Xcode shortcuts to the rescue! Just click the view your heart desires and hit ⌘+⇧+D. Easy!&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/7bfd936ab163f5cea0a94df47f3fceab/8c557/view.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 54.72972972972974%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAALCAYAAAB/Ca1DAAAACXBIWXMAAAsSAAALEgHS3X78AAAB5klEQVQoz6WSUWvTUBTH85lKl7QkuTdJRQQVyto0TdOtTXXpNu2sYE2VVR/KtEiZn8CvUlih7dv21heDKPjiZQZ88M3c48l1zG2Wvhj4ce8lf37nHO6Vthv+R9f1zksV79vtO/eZouSYphEmyzlmUJ1pah7PlOmayihRmWXdQgrs7r00m2eUmkzVdLHP51UmBXuPf3hbTag4rsAwDCCEAKVUrIZpwsZGFgaDV3B2dgrL5RImkwkMh0OQZflaPkXqHDz53vQfgu3UErdW55QaHAOcUIp7yk3T5Nlslr8/PuYAwD9/+cqDIOCapnGUiUwKuUDyW34chn3oHDzl9e2mqHYVFAIKYTR6C+l3cjKFTCZz2dHNvLS5WY4f7beh1+tx1639/UlvCkdCOJ/PQVEUMepKobd/FDu7R9B/84G3n71DkXkhpCuFs9lsvdBxG3G5Uode/5AHux3QdfJ/QrzZuFSyceSQt9t7KNT/jLtGKK8T2hX3vOrWIey//NV6sJMQQhFyCQoTFCYoTNCXLBaLBDtMUJig8Fo2JRX+9LYacDh4DQF2aBimqJ6+v3QtFArivY3HY9HhdDqFXC4HlmWJ7kX2ClLZrp46Ve/T8/BF5Ld2IqzyD6qqRsViMep2u5Ft2+K8KpfyG3Pttldgmg8FAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;There is the view!&quot;
+        title=&quot;There is the view!&quot;
+        src=&quot;/static/7bfd936ab163f5cea0a94df47f3fceab/fcda8/view.png&quot;
+        srcset=&quot;/static/7bfd936ab163f5cea0a94df47f3fceab/12f09/view.png 148w,
+/static/7bfd936ab163f5cea0a94df47f3fceab/e4a3f/view.png 295w,
+/static/7bfd936ab163f5cea0a94df47f3fceab/fcda8/view.png 590w,
+/static/7bfd936ab163f5cea0a94df47f3fceab/8c557/view.png 700w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Tip Number Three: Document Items&lt;/h2&gt;
+&lt;p&gt;So we’ve nailed navigating in the Project navigator and view debugger, what’s next? How about navigating in a single file. While usually you should strive to never have huge files, sometimes it still might be beneficial to get a quick overview of all the functions and MARKs (ie Document Items). Just hit ^+6 and a scrollview appears. And what’s even better is that you can right start to type to search for whatever you want! (another plus of using MARKs in your code).&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b0fe674f4a2c9621715b890422f95816/8c557/document_items.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 61.48648648648649%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAACc0lEQVQoz3WT6W7aQBSFeZuCl/G+sRgMCWAMGEjYGiXNoqRUbfY06r+oj9lX6Eh5g87pHaekUqr+OBpf2/Pde8/cKXV3Oz/6afacpsOf4/GUT2ZL3utlfHeny/N8xnN61+nP+GRxzFs7I15LMh4nfd5qdXjS3uXr1QEf5Xu8N8j5cDThpfnq6Hm+WCIbjpG0d2CYAWy/ASeISA3YXgg3WWF48Ihaega7fQIWZGC6BcY8qJoNTXegqBbt9VF6uL/iV9c32Jsvf3V7Q6GonlDNUFSMUCikMsW20xC9wUR02l3RjNuCQOJd2REVxRXlilusMnbcWJSur67518dvOL/YiMl0TtkCeE4dUbMLL+7AjVoI4xTdwT58WblbAzMCEISq8l5Vrjj0LUbp5uaOPz19x/3Do5jOFlBVH0wL4UUdWH4LdkDymvDCBLZToxYlyP0/8Pz8glq+xdGHU5ENJ7TBh6lFcIMEZvACdPwmdLNKHlVhWbWiCwncSiH9rfDyjN/d3WL9/lD003Hxs04tMTsEc6KX1Yqg03t1K0pa/Mdk7EOhuEzQAvjp4ynfbDY4PDoR2WhK2Tw4Vh1u2IRFfhl2BItaldVJWIUAcpWxSdKNCAoLUaG2C+DnL5ec/CPgsUgH48IPQw9RJQ+DagLLkyMk4Q2YJMuLoZkvkG2SNx6ecILJsRGDLC8+MjVEo9ZDVO3AcBrQSIxgLnkpN5nko02TwKi67eG8Avf2l5yE+WJNFeaFPyoNt06tymfpjyJ9ku3Sxren+88pE4jvL1aYL9dFhRJimTQ2bp3GpU5tVqlFSkK3QjNJBt0OKfbnmXnFGEkgXQD8BsUCl+PVvSQtAAAAAElFTkSuQmCC&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;View and search Document Items&quot;
+        title=&quot;View and search Document Items&quot;
+        src=&quot;/static/b0fe674f4a2c9621715b890422f95816/fcda8/document_items.png&quot;
+        srcset=&quot;/static/b0fe674f4a2c9621715b890422f95816/12f09/document_items.png 148w,
+/static/b0fe674f4a2c9621715b890422f95816/e4a3f/document_items.png 295w,
+/static/b0fe674f4a2c9621715b890422f95816/fcda8/document_items.png 590w,
+/static/b0fe674f4a2c9621715b890422f95816/8c557/document_items.png 700w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;
+&lt;h2&gt;Tip Number Four: Opening Xcode project&lt;/h2&gt;
+&lt;p&gt;You’re in a Terminal and you want to open the Xcode project in your current directory. Well, you just type the beginning of the name of the project and let the autocompletion do the work, right? Umm, usually that’s not the case. It is very common to have in the project’s root directory also a subdirectory with the same name and the situation gets even worse when you use workspace. It is a lot of typing to achieve such a simple result. You just want to open your Xcode project, right? Instead of this small battle with your terminal do:
+&lt;code class=&quot;language-text&quot;&gt;xed .&lt;/code&gt;
+…and it automatically opens your project - either .xcodeproj, or if you use workspace, it automatically chooses that.&lt;/p&gt;
+&lt;h2&gt;Tip Number Five: Comparing Targets&lt;/h2&gt;
+&lt;p&gt;This final tip is something you will not use very often, but when you do, it can save lives! Comparing things for a human brain is not an easy task when it does not see things exactly side-by-side. That is true in real life and in programming - and especially true when you want to compare Build Settings of your project’s target. A long list of values and now try to find an outlier that makes your app sad 😞. But Xcode has a hidden gem for us - go to one of the target’s Build Settings, hold ⇧ and click on the other target that you want to compare with. Then choose the type Levels and you can see nicely both target’s Build Settings, just the way we wanted!
+Comparing multiple targets (Levels selected)There is still so much left for me to discover about Xcode, it is not by all means perfect, but when you get used to these kinds of shortcuts and flows, it can make your life a whole lot easier. Let me know if there are tips that you find extremely useful, I’d love to know! Thanks for reading and happy coding 👨‍💻👩‍💻&lt;/p&gt;
+&lt;p&gt;&lt;span
+      class=&quot;gatsby-resp-image-wrapper&quot;
+      style=&quot;position: relative; display: block; margin-left: auto; margin-right: auto;  max-width: 590px;&quot;
+    &gt;
+      &lt;a
+    class=&quot;gatsby-resp-image-link&quot;
+    href=&quot;/static/b61da4dbdd7da7c6af06aeed171b6237/8c557/build_settings.png&quot;
+    style=&quot;display: block&quot;
+    target=&quot;_blank&quot;
+    rel=&quot;noopener&quot;
+  &gt;
+    &lt;span
+    class=&quot;gatsby-resp-image-background-image&quot;
+    style=&quot;padding-bottom: 60.13513513513513%; position: relative; bottom: 0; left: 0; background-image: url(&apos;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABQAAAAMCAYAAABiDJ37AAAACXBIWXMAAAsSAAALEgHS3X78AAACIUlEQVQoz21T227bMAz1XxTtbMc3Sb7Il8aJHcdO0j1sA/a4YcCwD+83jMC6P6g4kmnaFNjDgSRSPDykKK/uxkdTdk+2vock1RAnmlYFqaogUSWtOWRFD6lpIRa/EvDdLDOQ0ppmZ7DNa7rNk7UWV2GAQeAjOdCYAlU1IhGhLho0/VeMYo3hKnkFBaPJS1Q6R6UMIZe9N8yf4OHzd7SbL8+h3rmy7t263zo/WLkwjFwQxi4IApemymlTujTLndbK5XnholjR2bjKtrTP3CpKnVfvf4Cdf2G8/un85hu2/RG32wEpGKk0pEukKKXsBRalFWWshPdEJiirBjNSSKToxdEK7m5vMPBvnX93Q5cNTvuDEHBpZ8JEzuegVFY+c0LGJTnDy1QBrCCMMiozocy1gEoVXHpGDyB2DlZKk6qaSEtRWNlGErB6jwzwEug++CtytjiME/abUQjeCLUEsGKVZULKcawqL+yrgHeEfhAJyZ5K3k0zrvtBAi6lX8qXiq7ace3/L2F334vzfckaaeak8VpR36jXQXgen/KlRXzvmvCZSna2bt3h+JFGZ3Amr2QUOBklovFo5KxN4eqmk1GhT+Dabi3jwyPGhH85E7MzMb/gNC3SSwY3m+227nA5PGDb9TIm83KSPlNSuT/u9tJLeuX8kcj+UObfFAiZMrDZ7oAU0T4HstMUJFDXHczLUbAdJpj2CyyHE9ADwribYZ7Zd4J/S1pZNDAcVy0AAAAASUVORK5CYII=&apos;); background-size: cover; display: block;&quot;
+  &gt;&lt;/span&gt;
+  &lt;img
+        class=&quot;gatsby-resp-image-image&quot;
+        alt=&quot;Comparing multiple targets (Levels selected)&quot;
+        title=&quot;Comparing multiple targets (Levels selected)&quot;
+        src=&quot;/static/b61da4dbdd7da7c6af06aeed171b6237/fcda8/build_settings.png&quot;
+        srcset=&quot;/static/b61da4dbdd7da7c6af06aeed171b6237/12f09/build_settings.png 148w,
+/static/b61da4dbdd7da7c6af06aeed171b6237/e4a3f/build_settings.png 295w,
+/static/b61da4dbdd7da7c6af06aeed171b6237/fcda8/build_settings.png 590w,
+/static/b61da4dbdd7da7c6af06aeed171b6237/8c557/build_settings.png 700w&quot;
+        sizes=&quot;(max-width: 590px) 100vw, 590px&quot;
+        style=&quot;width:100%;height:100%;margin:0;vertical-align:middle;position:absolute;top:0;left:0;&quot;
+        loading=&quot;lazy&quot;
+      /&gt;
+  &lt;/a&gt;
+    &lt;/span&gt;&lt;/p&gt;</content:encoded></item></channel></rss>
